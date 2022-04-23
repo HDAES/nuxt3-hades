@@ -1,0 +1,23 @@
+html {
+    --windi-bg: #fcfcfc;
+    --windi-hover-bg: #f6f6f6;
+    --windi-text: #1f2937;
+    --windi-bc: #e5e7eb;
+}
+
+.dark {
+    --windi-bg: #181818;
+    --windi-hover-bg: #2d2d2d;
+    --windi-text: #f3f4f6;
+    --windi-bc: #2d2d2d;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    color: var(--windi-text);
+    background-color: var(--windi-bg);
+}
+
+html,body,#__nuxt{
+    height: 100%;
+}

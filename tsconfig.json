@@ -1,4 +1,12 @@
 {
   // https://v3.nuxtjs.org/concepts/typescript
-  "extends": "./.nuxt/tsconfig.json"
+  "extends": "./.nuxt/tsconfig.json",
+  
+  "compilerOptions": {
+    "module": "ESNext",
+    "jsx": "preserve",
+    "types": [
+      "nuxt-windicss"
+    ]
+  }
 }

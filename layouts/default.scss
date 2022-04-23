@@ -1,0 +1,11 @@
+.default-layout {
+    height: 100%;
+    &-header{
+        height: 60px;
+        .logo-link{
+            .logo{
+                height: 60px;
+            }
+        }
+    }
+  }
