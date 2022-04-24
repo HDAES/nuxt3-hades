@@ -16,6 +16,10 @@ export default defineNuxtConfig({
           rel: "stylesheet",
           href: "https://fonts.googleapis.com/css2?family=Damion&display=swap",
         },
+        {
+          rel: "stylesheet",
+          href: "https://at.alicdn.com/t/font_1098415_6lewpvb5fgd.css",
+        },
       ],
     },
   },

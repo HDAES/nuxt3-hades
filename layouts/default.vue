@@ -8,6 +8,6 @@
 
 <script lang="ts" setup>
 import "./default.scss";
-import Header from "./components/Header";
+import Header from "./components/Header/index.vue";
 import AppMain from "./components/AppMain/index.vue";
 </script>

@@ -1,11 +1,33 @@
 .default-layout {
     height: 100%;
     &-header{
+        background-color: var(--windi-bg);
+        border-color: var(--windi-bc);
+        border-bottom-width: 1px;
         height: 60px;
         .logo-link{
             .logo{
                 height: 60px;
             }
+        }
+        .nav-item{
+            position: relative;
+            box-sizing: content-box;
+        }
+        .nav-item:after {
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color:var(--windi-nav-border);
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            transition: width 0.4s;
+        }
+        .nav-item:hover::after {
+            width: 100%;
         }
     }
   }

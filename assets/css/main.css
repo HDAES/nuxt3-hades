@@ -3,6 +3,7 @@ html {
     --windi-hover-bg: #f6f6f6;
     --windi-text: #1f2937;
     --windi-bc: #e5e7eb;
+    --windi-nav-border: #333333;
 }
 
 .dark {
@@ -10,6 +11,7 @@ html {
     --windi-hover-bg: #2d2d2d;
     --windi-text: #f3f4f6;
     --windi-bc: #2d2d2d;
+    --windi-nav-border: #F78166;
 }
 
 body {
