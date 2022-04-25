@@ -18,7 +18,12 @@ export default defineNuxtConfig({
         },
         {
           rel: "stylesheet",
-          href: "https://at.alicdn.com/t/font_1098415_6lewpvb5fgd.css",
+          href: "https://at.alicdn.com/t/font_1098415_k6xivj5ba1.css",
+        },
+      ],
+      script: [
+        {
+          src: "http://hades0512.oss-cn-beijing.aliyuncs.com/live2d/L2Dwidget.min.js",
         },
       ],
     },
